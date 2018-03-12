@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<title>Myriann</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<script src="js/modernizr.min.js"></script>
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body class="home">
+	<header class="header clearfix">
+		<h1 class="logo">
+			<a href="index.html">
+				<img src="images/logo.png" alt="">
+				<span>Long Live Lodging</span>
+			</a>
+		</h1>
+	</header>
+	<div class="btnMobileNavOuter"></div>
+	<a class="btnMobileNav" href="javascript:void(0);">LEARN MORE <i></i></a>
+	<div class="navigationOuter">
+		<div class="nav clearfix">
+			<ul class="nav-menu">
+				<li class="m-our work">
+					<a href="who-we-are.html">
+						<span class="vcen">
+							<span class="label">Who we are</span>
+							<span class="desc">Lorem Ipsum is simply dummy text printing and typesetting industry.</span>
+						</span>
+					</a>
+				</li>
+				<li class="m-our agency">
+					<a href="what-we-do.html">
+						<span class="vcen">
+							<span class="label">What we do</span>
+							<span class="desc">Lorem Ipsum is simply dummy text printing and typesetting industry.</span>
+						</span>
+					</a>
+				</li>
+				<li class="m-our clients">
+					<a href="our-clients.html">
+						<span class="vcen">
+							<span class="label">Our Clients</span>
+							<span class="desc">Lorem Ipsum is simply dummy text printing and typesetting industry.</span>
+						</span>
+					</a>
+				</li>
+				<!-- <li class="m-our closet">
+					<a href="#">
+						<span class="vcen">
+							<span class="label">Giving Back</span>
+							<span class="desc">Lorem Ipsum is simply dummy text printing and typesetting industry.</span>
+						</span>
+					</a>
+				</li> -->
+				<li class="m-our closet">
+					<a href="blog.html">
+						<span class="vcen">
+							<span class="label">Our thoughts</span>
+							<span class="desc">Lorem Ipsum is simply dummy text printing and typesetting industry.</span>
+						</span>
+					</a>
+				</li>
+				<li class="m-your project">
+					<span class="vcen">
+						<span class="label">Your Project</span>
+						<span class="desc">Ready to start your project with Myriann? We'd love to talk.</span>
+						<a title="Get Started" href="contact-us.html" class="btnGetStarted">Get Started Today</a>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<section class="bannerArea clearfix">
+		<div class="bannerRow clearfix">
+			<div class="bannerBg">
+				<div class="bannerTextOuter">
+					<span id="bannerText"></span>
+				</div>
+			</div>
+			<div class="bannerImg clearfix">
+				<img src="images/banner1.png" alt="">
+			</div>
+		</div>
+	</section>
+	<section class="trustOuter clearfix">
+		<div class="wrapper clearfix">
+			<h3>Trusted By</h3>
+			<ul class="trustedList clearfix">
+				<li><img src="images/logo-noble.png" alt=""></li>
+				<li><img src="images/logo-georgia.png" alt=""></li>
+				<li><img src="images/logo-interstate.png" alt=""></li>
+			</ul>
+			<ul class="trustedList clearfix">
+				<li><img src="images/logo-accesspoint.png" alt=""></li>
+				<li><img src="images/logo-ashford.png" alt=""></li>
+				<li><img src="images/logo-hoges-ward.png" alt=""></li>
+			</ul>
+			<div class="mLogo clearfix">
+				<ul>
+					<li><img src="images/logo-noble.png" alt=""></li>
+					<li><img src="images/logo-georgia.png" alt=""></li>
+					<li><img src="images/logo-interstate.png" alt=""></li>
+					<li><img src="images/logo-accesspoint.png" alt=""></li>
+					<li><img src="images/logo-ashford.png" alt=""></li>
+					<li><img src="images/logo-hoges-ward.png" alt=""></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="stackholdesOuter clearfix">
+		<div class="wrapper clearfix">
+			<div class="zoom">
+				<h3>Myriann helps you tell compelling, original stories to delight<br> guests, partners, and stakeholders.</h3>
+				<div class="btnCont clearfix">
+					<a class="btn" href="our-clients.html">OUR CLIENTS</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer clearfix">
+		<div class="wrapper clearfix">
+			<ul class="socialList">
+				<li><a href="#"><img src="images/fbIcon.png" alt=""></a></li>
+				<li><a href="#"><img src="images/twitterIcon.png" alt=""></a></li>
+				<li><a href="#"><img src="images/instagramIcon.png" alt=""></a></li>
+				<li><a href="#"><img src="images/linkedinIcon.png" alt=""></a></li>
+			</ul>
+		</div>
+	</footer>
+	<div class="bodyBg"></div>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/TweenMax.min.js"></script> 
+	<script src="js/typed.js"></script>
+	<script src="js/jquery.myriann.js"></script>
+	<script>
+		// Typed Text Function
+		$(function(){
+	        $("#bannerText").typed({
+	            strings: ["Lodging Creates Experiences.", "Experiences Shape Stories.", "Myriann helps you tell compelling, original stories to delight guests, partners, and stakeholders."],
+	            //stringsElement: $('#typed-strings'),
+	            typeSpeed: 30,
+	            backDelay: 3000,
+	            loop: false,
+	            contentType: 'html', // or text
+	            // defaults to false for infinite loop
+	            loopCount: true,
+	            callback: function(){ foo(); },
+	            resetCallback: function() { newTyped(); }
+	        });
+
+    	});
+  	</script>
+</body>
+</html>

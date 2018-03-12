@@ -1,0 +1,220 @@
+@media (min-width:320px) and (max-width:767px){
+	.header{ width: 100%; position: fixed; top: 0; left: 0; background: #fff; padding: 10px; border-bottom: 1px #d4d7de solid; z-index: 99;}
+	.wrapper{ padding:0 15px;}
+	.logo img{ width: 65px;}
+	.logo a span{ display: none; }
+	.btnMobileNavOuter{ position: fixed; height: 65px; background: #f00; z-index: 999999; background: #323738;}
+	.btnMobileNav{ position: fixed; top: 22px; right: 15px;}
+	.navList{ padding: 65px 0 0 0; }
+	.navigationOuter{ position: fixed; height: 100%; overflow-y: auto;}
+
+	.bannerArea{ margin:63px 0 0 0;}
+	#mBanner{ height: auto; padding: 30px 15px;}
+	#mBanner .bannerImg{ transform: none; -moz-transform: none; -webkit-transform: none;}
+
+	.bannerRow{ height: auto; padding: 30px 15px;}
+	.bannerRow .bannerImg{ transform: none; -moz-transform: none; -webkit-transform: none;}
+	.bannerRow h2, .bannerRow h3{transform: none; -moz-transform: none; -webkit-transform: none;}
+	.bannerRow h2{ font-size: 28px;}
+	.bannerRow h3{ font-size: 24px;}
+	.mLogo{ display: block; }
+	.mLogo ul{ text-align: center;}
+	.mLogo ul li{ width: 48%; display: inline-block; margin:15px 0; padding: 0 5px;}
+	.mLogo ul li img{ vertical-align: middle;}
+	.trustedList{ padding: 0; display: none;}
+	.trustedList li{ width: 48%; display: inline-block; margin:0 0 10px 0;  text-align: left;}
+
+	.trustOuter{ padding: 30px 0 20px 0; }
+	.stackholdesOuter{ padding: 20px 0; }
+	.stackholdesOuter h3{ font-size: 18px; line-height: 24px; }
+	.btnCont{ padding: 30px 0 0 0; }
+	.btn{ width: 210px; font-size: 18px; height: 60px; line-height: 60px; margin:0 0 15px 0; }
+	.contentContainer{ padding: 30px 0 0 0; }
+	.contentContainer h3{ padding: 0 0 30px 0; }
+	.imgcontLeft{ width: 96px; margin:0 15px 0 0;}
+	.myriannRow{ padding: 0 0 40px 0; }
+	.myriannRow h4{ font-size: 14px; line-height: 22px; padding: 0 0 20px 0; }
+	.wrapper1000{ padding: 0 15px; }
+	.imgcontRight{ width: 96px; margin:0 0 0 15px;}
+
+	.whoweareBanner{ margin:66px 0 0 0; padding: 30px 0;}
+	.whoweAre{ padding: 30px 0; }
+	.whoweAre h3{ padding: 0 0 20px 0; }
+	.teamMemberOuter{ padding: 50px 0 0 0; }
+	.memberLeft{ width: 100%; text-align: center; margin:0; }
+	.memberRight{ width: 100%; overflow: visible; float: left; padding: 0; }
+	.memberRight h4{ font-size: 18px; padding: 0 0 10px 0; }
+
+	.adviserOuter{ padding:50px 0  0 0; }
+	.adviserCol{ margin:0 20px 30px 20px; }
+	.ourteamOuter{ padding: 30px 0 0 0; }
+	.teamImg{ display: none;}
+	.teamMemberOuter{ display: none; }
+	.mTeamMember{ display: block; }
+	.teamList li{ margin:0 auto; margin-bottom: 20px; display: block;}
+	.adviserImg{ width: 150px; height: 150px; }
+
+	.logoContainer{ display: none; }
+	.whatwedoBanner{ margin:66px 0 0 0; }
+	.whatwedoLeft{ width: 100%; }
+	.whatwedoRight{ width: 100%; float: left; overflow: visible; padding: 20px 0;}
+	.whatwedoRight h3{ padding: 0 0 15px 0; }
+	.midNav{ padding: 10px 0; }
+	.midnavList li{ display: block; font-size: 11px; margin:10px 0; }
+	.branding{ padding: 30px 15px; }
+	.brandingLeft{ width: 100%; margin:0 0 15px 0;}
+	.brandingRight{ width: 100%; float: left; overflow: visible; }
+	.brandingLeft h2{ font-size: 32px; }
+	.brandingFeatureWork{ padding: 30px 15px; }
+	.brandingFeatureWorkInner h3{ padding: 0 0 30px 0; }
+	.brandingFeatureWorkInner h4{ font-size: 18px; padding: 0 0 30px 0; }
+	.brandingFeatureWorkInner h5{ padding:50px 0 30px 0; }
+	.brandingworkLeft{ width: 100%; margin:0; }
+	.brandingworkRight{ width: 100%; float: left; overflow: visible; }
+	.noble{ padding: 0 0 20px 0; }
+	.topMargin{ margin:0; }
+	.imgRow.alignRight{ text-align: left; }
+	.webDesign{ padding: 30px 15px; }
+	.webDesignInner h2{ font-size: 26px; padding: 0 0 20px 0; }
+	.webDesignInner h3{ padding: 40px 0; }
+	.grid-item{ width: 140px; padding: 0 3px;}
+	.graphicsDesign{ padding: 30px 0; }
+	.graphicsDesign h2{ font-size: 26px; padding: 0 0 20px 0; }
+	.infographics{ padding: 0 15px; }
+	.infographicsLeft{ width: 120px; font-size: 16px; margin:0 10px 0 0; }
+	.socialMedia{ padding: 30px 15px; margin:30px 0 0 0;}
+	.socialMediaLeft{ width: 100%; margin:0 0 20px 0; }
+	.socialMediaLeft h2{ font-size: 26px;}
+	.socialMediaRight{ width: 100%; float: left; overflow: visible; }
+	.socialBtn ul li{ display: block; text-align: center; margin:0 0 10px 0;}
+	.socialBtn ul li a{ width: 250px; padding: 15px 0; display: inline-block;}
+	.mobileDevelopment{ padding: 30px 15px; }
+	.mobileDevelopment h2{ font-size: 26px; padding: 0 0 20px 0; }
+	.video{ padding: 30px 15px; }
+	.videoLeft{ width: 100%; margin:0 0 20px 0; padding: 0; }
+	.videoLeft h2{ font-size: 26px; padding: 0 0 20px 0; }
+	.videoRight{ width: 100%; float: left; overflow: visible; }
+	.appList li{ max-width: 30%; }
+
+	.ourClientBanner{ padding: 30px 0; margin:66px 0 0 0; }
+	.ourClientBannerLeft{ width: 100%; }
+	.ourClientBannerRight{ width: 100%; padding: 30px 0 0 0;}
+	.ourClientBannerRight p{ padding: 0 0 20px 0; }
+	.clientsContent{ padding: 30px 0; }
+	.clientListBlock{ margin: 0 0 30px 0; padding: 0; display: block;}
+	.clientListBlock.cltLft{ border:0;}
+	.clientListBlock.cltRht{ border:0;}
+	.clientListBlock ul li{ font-size: 12px; }
+	.clientsLeft{ width: 100%; border:0;}
+	.clientsRight{ width: 100%; float: left; overflow: visible; }
+	.indicator{ display: none; }
+	.downArrow{ display: none; }
+	.clientsDetailsRow{ padding: 30px 0 0 0; }
+	.topImg{display: none;}
+	.clientPic{ padding: 0; }
+	.clientsDetails{ padding: 30px 0; }
+	.clientsDetails p{ font-size: 14px; }
+
+	.contactUs{ padding: 30px 15px; margin:66px 0 0 0; }
+	.contactUsInner h2{ font-size: 26px; padding: 0 0 20px 0; }
+	.progressCont{ margin:0 0 20px 0; }
+	.formCont{ padding: 30px 0 0 0; }
+	.frmRow input[type="text"]{ font-size: 16px; padding: 12px; }
+	.frmRow textarea{ font-size: 14px; padding: 12px; height: 150px; }
+	.btnSubmitCont{ padding: 15px 0 0 0; }
+
+	.blog{ margin:66px 0 0 0; padding: 30px 15px; }
+	.blogRow{ padding: 0 0 50px 0; }
+	.blogRow h2{ font-size: 18px; padding: 20px 0; }
+	.blogReadMore{ padding: 0 0 20px 0; }
+
+	.footer{ padding: 10px 0; }
+	.socialList li{ margin:0 10px; }
+
+	.nav-menu{ padding: 65px 0 0 0; }
+	.nav-menu li{ text-align: left; }
+
+	.gridCol{ max-width: auto; width: 50%; float: left; }
+
+	.bannerTextOuter{ padding: 0 15px; }
+	#bannerText{ font-size: 18px; }
+	#typed-cursor{ font-size: 32px; }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+	.header{ width: 100%; position: fixed; top: 0; left: 0; z-index: 99999; background: #fff; padding: 15px; border-bottom: 1px #d4d7de solid; z-index: 99;}
+	.navigationOuter{ overflow-y:auto;  }
+	.wrapper{ padding:10px 15px;}
+	.logo img{ width: 90px;}
+	.btnMobileNavOuter{ position: fixed; height: 92px; background: #f00; z-index: 999999; background: #323738;}
+	.btnMobileNav{ position: fixed; top: 37px; right: 20px;}
+	.navList{ padding: 92px 0 0 0; }
+	.bannerArea{ margin:93px 0 0 0; }
+	.bannerRow{ height: 400px; }
+	#mBanner{ height: 400px; }
+	.trustOuter{ padding: 30px 0 0 0; }
+	.stackholdesOuter{ padding: 40px 0; }
+	.wrapper1000{ padding: 0 15px; }
+
+	.whoweareBanner{ margin:93px 0 0 0; }
+	.teamMemberOuter{ padding: 50px 0 0 0; }
+	.adviserOuter{ padding: 50px 0; }
+	.adviserCol{ max-width: 160px; margin:0 12px; }
+	.adviserImg{ width: 130px; height: 130px; }
+	.ourteamOuter{ padding: 70px 0 0 0; }
+	.teamList li{ max-width: 16%; }
+	.memberLeft{ width: 200px; }
+	.trustedList li{ max-width: 180px; }
+
+
+	.whatwedoBanner{ margin:93px 0 0 0; }
+	.whatwedoLeft{ width: 50%; }
+	.whatwedoRight{ padding: 50px 0 0 20px; }
+	.midNav{ padding: 10px 0; }
+	.midnavList li{ font-size: 11px; margin:0 7px; }
+	.branding{ padding: 50px 15px; }
+	.brandingLeft{ width: 300px; margin:0; }
+	.brandingLeft h2{ font-size: 40px; }
+	.brandingFeatureWork{ padding: 50px 15px; }
+	.brandingworkLeft{ width: 350px; }
+	.webDesign{ padding: 50px 15px; }
+	.graphicsDesign{ padding: 50px 0; }
+	.infographics{ padding: 0 15px; }
+	.socialMedia{ padding: 50px 15px; }
+	.socialMediaLeft{ width: 180px; margin:0 30px 0 0; }
+	.socialMediaLeft h2{ font-size: 40px;}
+	.socialBtn ul li a{ padding: 15px 25px; }
+	.mobileDevelopment{ padding: 50px 15px; }
+	.video{ padding: 50px 15px; }
+	.appList li{ max-width: 16%; }
+
+	.ourClientBanner{ padding: 30px 0; margin:93px 0 0 0; }
+	.ourClientBannerLeft{ width: 50%; }
+	.ourClientBannerRight{ width: 50%; }
+	.clientsLeft{ width: 45%; }
+	.downArrow{ display: none; }
+	.clientsDetailsRow{ padding: 70px 0 0 0; }
+	.topImg{ width: 53%; }
+	.clientsDetails{ padding: 30px 50px 0 50px; }
+
+	.contactUs{ padding: 50px 15px; margin:93px 0 0 0; }
+
+	.blog{ margin:93px 0 0 0; padding: 50px 15px 0 15px; }
+	.blogRow{ padding: 0 0 50px 0; }
+
+	.nav-menu{ padding: 93px 0 0 0; }
+
+	.gridCol{ max-width: 120px; }
+	.clientListBlock{ padding: 0 25px; }
+	
+	
+	.bannerTextOuter{ padding: 0 30px; }
+	#bannerText{ font-size: 42px; }
+	#typed-cursor{ font-size: 52px; }
+}
+	
+
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+	.gridCol{ max-width: 165px; }
+}
